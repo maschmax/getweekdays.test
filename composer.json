@@ -1,0 +1,20 @@
+{
+    "name": "masch/getweekdays",
+    "description": "A test-case in december when the snow is falling",
+    "require": {
+        "ext-mysqli": "*",
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Masch\\Getweekdays\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maria Weegar Schön",
+            "email": "maria.schon@publit.se"
+        }
+    ],
+    "minimum-stability": "dev"
+}
