@@ -25,6 +25,13 @@ Run `composer update` to install all dependencies, and autoloading.
 
 In document-root you find setup_database.sql, execute it to setup the database.
 
+## PhpUnit
+To make the phpunit tests to run properly.
+
+To enable PHPUnit in PHPStorm, go to Settings`->`Languages & Frameworks`->`PHP`->`Test Frameworks. Check the Use Composer autoloader option and point the path to your autoload.php script from the vendor folder (this folder is also created by Composer).
+
+
+
 ## Run the project
 
 If you use the PHP-built-in server use this command `sudo php -S localhost:80 -t getweekdays.test/public`
