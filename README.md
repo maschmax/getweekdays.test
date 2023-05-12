@@ -30,6 +30,7 @@ In document-root you find setup_database.sql, execute it to setup the database.
 If you use the PHP-built-in server use this command from a terminal, standing in your workspace directory  `sudo php -S localhost:80 -t getweekdays.test/public`
  
 ## The structure
+Use the app tree to create this image. 
 
-![tree.png](public%2Fimages%2Ftree.png)
+![tree.png](public/images/tree.png)
 
